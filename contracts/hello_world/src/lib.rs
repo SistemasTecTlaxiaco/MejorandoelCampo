@@ -7,7 +7,7 @@ pub struct HelloContract;
 #[contractimpl]
 impl HelloContract {
     pub fn hello(env: Env, to: Symbol) -> Vec<Symbol> {
-        vec![&env, symbol_short!("Hello"), to]
+        vec![&env, symbol_short!("Hola Mundo"), to]
     }
 }
 
